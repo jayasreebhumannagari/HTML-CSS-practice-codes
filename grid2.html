@@ -1,0 +1,39 @@
+<style>
+.main-div {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    height: 100vh;
+    gap:50px;
+}
+.child {
+background-color: greenyellow;
+border-radius: 10px;
+margin:10px;
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+}
+</style>
+
+<body>
+    <div class="main-div">
+    <div class="child">
+        <p>product1</p>
+    <p>$40</p>
+    </div>
+    
+    <div class="child"><p>product2</p>
+        <p>$40</p>
+
+    </div>
+    
+    <div class="child">
+        <p>product3</p>
+    </div>
+    
+    <div class="child"><p>product4</p>
+    </div>    
+</body>

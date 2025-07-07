@@ -1,0 +1,19 @@
+<!--heighlated pseduoclass-->
+<body>
+    <style>
+      .heighlight {
+          background-color: pink;
+          color:blue;
+      }
+      p:not(.heighlight) {
+          background-color: yellow;
+          color:red;
+  
+      } 
+  </style>
+    
+      <p>this is not styled by :not()</p>
+    <p class="heighlight">this is styled by heighlated classs</p>
+    <p>this is also not styled by :not()</p>
+    </body>
+  

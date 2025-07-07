@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+    <head><title>first line styling</title>
+    </head>
+    <style>
+    pre::first-line {
+        background-color: pink;
+    }
+/* first letter styling*/
+pre::first-letter {
+    fontcolor:red;
+    font-weight: bold;
+    font-size: 2em;
+}    
+/* place holder styling*/ 
+input::placeholder {
+    font-style: italic;
+    color: blue;
+ } 
+ /* selection styling*/
+ pre::selection {
+    background-color: brown;
+    color:aquamarine
+ }
+ li::marker {
+    font-size: 2em;
+    color:green;
+ } 
+</style>
+    
+    
+    <body>
+        <pre>This is first paragraph we will change it after five minutes,
+            this is second pararaph this contains quotations
+            this is third paragraph this contains health tips
+            this is fourth paragraph this contain tips for healthy tips.
+        </pre>
+    <input type="text" placeholder="enter your name">
+<div>
+    <ul>    
+<li>Item1</li>
+<li>Item2</li>
+<li>Item3</li>
+<li>Item4</li>
+</ul>
+</div>
+</body>
+</html>        

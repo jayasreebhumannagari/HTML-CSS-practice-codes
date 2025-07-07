@@ -1,0 +1,27 @@
+<style>
+.bounce {
+ border: 2px solid black;
+ background-color: blue;
+ height: 200px;width: 200px;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+ border-radius: 200px;
+ animation-name: bounce;
+}
+
+@keyframes bounce {
+0% {
+    transform: translateY(0);
+    }
+    50% {
+         transform: translateY(600px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+</style>
+
+<body>
+    <div class="bounce"></div>
+</body>
